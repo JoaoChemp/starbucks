@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks - Landing Page</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo.jpg" alt="logo"></div> <!--Logo-->
+        <div class="menu">
+            <a href="#" class="home">Home</a>
+            <a href="#">Menu</a> 
+            <a href="#">What's New</a>
+            <a href="#">Contact</a>
+        </div> <!--Menu-->
+    </header>
+    <section>
+        <div class="text">
+            <h1>It's not just Coffee<br>it's<span style="color: #017143; font-size: 90px;">Starbucks</span></h1>
+            <p>Starbucks Corporation is an American Multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. As the world's largest coffeehouse chain, Starbucks is seen to be the main representation of the United States' third wave of coffe culture</p>
+            <p class="footer">Learn More</p>
+               <section class="section">
+				<!--
+                <div class="thumb">  
+					<a href="index.html"><img style="border-style: solid; border-color: rgba(0, 0, 0, 0.363);" src="thumb1.png" alt=""></a>			
+                    <a href="index02.html"><img style="margin-bottom: 6px;" src="thumb2.png" alt=""></a>
+					<a href="index03.html"><img style="margin-bottom: 6px;" src="thumb3.png" alt=""></a>
+                </div> 
+                -->		
+				<!--Botão Verde-->
+				<div class="thumb">		
+					<label for="verde"><a><img src="thumb1.png" class="selecao" alt=""></a></label>
+			    <!--Botão Rosa-->			
+					<label for="rosa"><a><img src="thumb2.png" id="selecao" alt=""></a></label>
+				<!--Botão Roxo-->			
+					<label for="roxo"><a><img src="thumb3.png" id="selecao" alt=""></a></label>					
+				</div>	
+				</section>      
+        </div> 
+		<div class="sobre">
+			<!--Imagem Verde-->  
+			<div id="copo">
+			<!--Ao final do input radio tem um atributo "Checked" que deixa 
+			essa opção selecionada ao carregar a página-->  
+				<input type="radio" id="verde" name="copo" checked>
+				<div class="extras"><img src="img1.png"></div>					
+			<!--Imagem Rosa--> 
+				<input type="radio" id="rosa" name="copo">
+				<div class="extras" style="background-color: rgb(228, 163, 174);"><img style="margin-bottom: 10px;" src="img2.png"></div>
+			<!--Imagem Roxo--> 
+				<input type="radio" id="roxo" name="copo">
+				<div class="extras" style="background-color: rgb(211, 38, 211);"><img id="imagem" style="margin-bottom: 20px;" src="img3.png"></div>
+			</div>
+		</div>			
+			<!--
+			<div class="sobre"> 
+				<div class="extras"></div>
+				<img src="img1.png" alt="bebida"> 
+            </div> 
+		
+			 <div class="sobre">
+				<div class="extras" style="background-color: rgb(228, 163, 174);"></div>
+				<img style="margin-bottom: 10px;" src="img2.png" alt="bebida">
+			</div> 
+			
+			<div class="sobre">
+				<div class="extras" style="background-color: rgb(211, 38, 211);"></div>
+				<img style="margin-bottom: 20px;" src="img3.png" alt="bebida">
+             </div>  
+			-->
+    </section>    
+</body>
+</html>
